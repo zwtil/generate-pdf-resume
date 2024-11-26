@@ -7,13 +7,7 @@ from zuu_doc.xelatex import run_xelatex_in_temp, run_xelatex
 _basepath = os.path.dirname(os.path.realpath(__file__))
 respath = os.path.join(_basepath, "res")
 
-
-@click.group()
-def CLICK():
-    pass
-
-
-@CLICK.command()
+@click.command()
 @click.argument("data", required=False)
 @click.argument("template", required=False)
 @click.option("--delete-temp-file", "-d", help="Delete temporary files", is_flag=True)
@@ -24,7 +18,7 @@ def CLICK():
     is_flag=True,
 )
 @click.option("--testmode", "-t", help="Test mode, will use example.toml", is_flag=True)
-def gen(
+def CLI(
     data=None,
     template=None,
     gen_pdf_local=False,
@@ -58,7 +52,7 @@ def gen(
         else:
             os.environ["TEXINPUTS"] = respath
             run_xelatex_in_temp("output",captures=["*.pdf"], texInputs=respath)
-    except Exception as e:
+    except Exception as e: #noqa
         e = e
         click.echo(f"Error: {e}")
     finally:
@@ -72,4 +66,4 @@ def gen(
 
 
 if __name__ == "__main__":
-    CLICK()
+    CLI()

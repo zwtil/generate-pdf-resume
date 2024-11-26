@@ -96,7 +96,7 @@ $for(profile.topqual)$
     \item{\qualstyle{$profile.topqual$}}
 $endfor$
 \end{cvitems}
-
+\vspace{4mm}
 $endif$
 
 $if(qual)$
@@ -109,17 +109,17 @@ $for(qual.items)$
     \item{\qualstyle{$qual.items$}}
 $endfor$
 \end{cvitems}
-
+\vspace{4mm}
 $endfor$
 $endif$
 %-------------------------------------------------------------------------------
 % ! Work experience
 %-------------------------------------------------------------------------------
 \cvsection{Work Experience}
-\vspace{4mm}
 \begin{cventries}
 
 $for(exp)$
+\vspace{4mm}
 \cventry
 {$exp.position$}
 {$exp.organization$}
@@ -150,6 +150,7 @@ $for(expl.items)$
   {$expl.items.year$}
 $endfor$
 \end{cvhonors}
+\vspace{4mm}
 $endfor$
 $endif$
 
@@ -159,8 +160,8 @@ $endif$
 %----------------------------------------------------------------------
 $if(project)$
 \cvsection{Projects}
-\begin{cventries}
 
+\begin{cventries}
 
 $for(project)$
 \vspace{4mm}
@@ -178,10 +179,9 @@ $endfor$
 \end{cvitems}
 $endif$
 }
+\vspace{4mm}
 $endfor$
 \end{cventries}
-
-\vspace{4mm}
 $endif$
 
 $if(projectl)$
@@ -203,6 +203,7 @@ $for(projectl.items)$
   {$projectl.items.year$}
 $endfor$
 \end{cvhonors}
+\vspace{4mm}
 $endfor$
 $endif$
 
@@ -211,10 +212,10 @@ $endif$
 %-------------------------------------------------------------------------------
 $if(otherexp)$
 \cvsection{Other Experience}
-\vspace{4mm}
 \begin{cventries}
 
 $for(otherexp)$
+\vspace{4mm}
 \cventry
 {$otherexp.position$}
 {$otherexp.organization$}
@@ -227,6 +228,7 @@ $for(otherexp.items)$
 $endfor$
 \end{cvitems}
 }
+\vspace{4mm}
 $endfor$
 \end{cventries}
 
@@ -242,6 +244,7 @@ $for(otherexpl.items)$
   {$otherexpl.items.year$}
 $endfor$
 \end{cvhonors}
+\vspace{4mm}
 $endfor$
 $endif$
 $endif$
@@ -250,10 +253,10 @@ $endif$
 % ! Education
 %-------------------------------------------------------------------------
 \cvsection{Education}
-\vspace{4mm}
 \begin{cventries}
 
 $for(edu)$
+\vspace{4mm}
 \cventry
 {$edu.degree$}
 {$edu.institution$}
@@ -268,11 +271,10 @@ $endfor$
 \end{cvitems}
 $endif$
 }
-\vspace{6mm}
+\vspace{4mm}
 $endfor$
 \end{cventries}
 
-%-------------------------------------------------------------------------------
 $if(edul)$
 $for(edul)$
 \cvsubsection{$edul.title$}
@@ -285,6 +287,7 @@ $for(edul.items)$
   {$edul.items.year$}
 $endfor$
 \end{cvhonors}
+\vspace{4mm}
 $endfor$
 $endif$
 

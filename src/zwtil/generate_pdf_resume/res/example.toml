@@ -40,80 +40,79 @@ items = [
 ]
 
 [[exp]]
-position = "Magical Analyst"
-organization = "Council of Elders"
+position = "Arcane Specialist"
+organization = "Elders' Council"
 location = "Mystic Tower, Avalon"
-datestart = "Jun 1924"
-dateend = "Current"
+datestart = "1924"
+dateend = "Present"
 items = [
-    "Investigated and resolved inefficiencies in magical energy distribution for the Kingdom's protective barriers, discovering an ancient and forgotten ritual. Achieved a 150x power boost by optimizing spell flow, significantly enhancing defense capabilities.",
-    "Led the charge in addressing the issue of misfired spells causing unintended transformations. Developed a custom charm and enchanted artifact, preventing these errors and saving the council significant resources.",
-    "Spearheaded the standardization of spell casting protocols and the preservation of ancient knowledge in the Mystic Library, integrating enchanted quills for seamless documentation. This initiative improved knowledge transfer and enhanced collaboration within the Order.",
+    "Analyzed and improved magical energy systems, uncovering ancient rituals to enhance protective barriers.",
+    "Addressed spell misfires and developed solutions to prevent resource wastage.",
+    "Standardized spell casting protocols and preserved ancient knowledge, enhancing collaboration.",
 ]
 
 [[exp]]
-position = "Apprentice Sorcerer"
-organization = "Circle of Magi"
+position = "Sorcerer Apprentice"
+organization = "Magi Circle"
 location = "Mystic Tower, Avalon"
-datestart = "Sep 1823"
-dateend = "Current"
+datestart = "1823"
+dateend = "Present"
 items= [
-    "Joined the Circle specifically to resolve persistent magical distortions during rituals, despite having no prior experience with high-level magic. Quickly mastered the ancient spells through dedicated practice, significantly improving ritual outcomes.",
-    "Created arcane manuals and trained two additional apprentices, ensuring knowledge transfer and continuity within the Circle for consistent spellcasting.",
-    "Developed a magical automation spell to manage ritual components, crucial during a high-stakes summoning. This allowed the Circle to focus on other critical tasks, ensuring the ritual's success."
+    "Resolved magical distortions in rituals and mastered ancient spells through practice.",
+    "Created manuals and trained apprentices to ensure knowledge continuity.",
+    "Developed automation spells for ritual management, aiding in high-stakes summoning.",
 ]
 
 [[project]]
-name = "Enchanted Image Projection"
-position = "Spell Contributor"
-type = "Obsidian Plugin"
-datestart = "Nov. 1923"
-dateend = "Current"
+name = "Image Projection"
+position = "Contributor"
+type = "Plugin"
+datestart = "1923"
+dateend = "Present"
 items = [
-    "Developed an Obsidian plugin to enable direct embedding of enchanted images in spellbooks, addressing a specific and niche demand within the magical community.",
-    "Quickly learned the Obsidian API and ancient runes from scratch, successfully applying these new skills to develop a spell, despite having no prior experience.",
-    "Received over 2,000 downloads and 20 bookmarks despite targeting a niche audience, reflecting its unexpected popularity and impact.",
+    "Created a plugin for embedding images in spellbooks, meeting niche community needs.",
+    "Learned new APIs and runes to develop a spell, achieving unexpected popularity.",
 ]
 
 [[project]]
-name = "CS410 Magical Engineering Capstone"
+name = "Engineering Capstone"
 position = "Lead Enchanter"
-type = "Celestial Academy of Mystical Arts, Crystal Spire, Avalon"
-datestart = "Sep 1821"
-dateend = "Dec 1821"
+type = "Academy Project"
+datestart = "1821"
+dateend = "1821"
 items = [
-    "Successfully led a team of four in a professional capacity to spearhead the design and development of a dynamic magical artifact using Ancient Runes and integrated Spell Templates. This project strictly followed full arcane development cycles, employing the Spiral Model.",
+    "Led a team to design a magical artifact using runes and templates, following development cycles.",
 ]
 
 [[project]]
-name = "ArcaneDocumentor"
-position = "Author"
-type = "Github Repo"
-datestart = "Apr. 1924"
-dateend = "Current"
+name = "Documentor"
+position = "Creator"
+type = "Repository"
+datestart = "1924"
+dateend = "Present"
 items = [
-    "Developed a tool that automates the creation of enchanted documents using ArcaneTemplates. This tool enhances efficiency by streamlining the process of creating spell scrolls with consistent formatting.",
+    "Created a tool for automating enchanted document creation, improving efficiency.",
 ]
 
 [[otherexp]]
-position = "Archmage's Assistant"
-organization = "Applewood's Grove"
+position = "Assistant"
+organization = "Grove"
 location = "Enchanted Woods, Avalon"
-datestart = "June 1719"
-dateend = "Current"
+datestart = "1719"
+dateend = "Present"
 items = [
-    "Provided consistent arcane support during apprenticeship through remote spellcasting, handling supply orders for rare ingredients, creating magical manuals, instructing on ritual operation, and managing magical records and scribe work, ensuring smooth operations even from a distance.",
-    "Acquired in-depth arcane knowledge through targeted electives in Magical Flora and took the initiative to obtain a Mastery in Potion Crafting.",
-    "Experimented with organic-compliant ritual designs and enchantment methods, significantly reducing ritual preparation time by half through early intervention, while aligning with sustainable magical practices.",
+    "Provided arcane support, managed supplies, and created manuals for smooth operations.",
+    "Gained knowledge in Magical Flora and achieved mastery in Potion Crafting.",
+    "Experimented with ritual designs, reducing preparation time and aligning with sustainable practices.",
 ]
 
 [[edu]]
-degree = "Master of Arcane Sciences"
-institution = "Celestial Academy of Mystical Arts"
-datestart = "Sep 1718"
-dateend = "Jun 1723"
+degree = "Arcane Sciences"
+institution = "Mystical Arts Academy"
+datestart = "1718"
+dateend = "1723"
 location = "Crystal Spire, Avalon"
 items = [
-    "Excellence Scholarship Program in Arcane Sciences and Ancient Runes.",
-    "Co-founder of a Sorcerer's Guild during the Arcane Plague, facilitating communication and collaboration among members.",
+    "Participated in a scholarship program for Arcane Sciences and Runes.",
+    "Co-founded a guild to facilitate member collaboration during a crisis.",
 ]

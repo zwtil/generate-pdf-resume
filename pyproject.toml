@@ -16,7 +16,7 @@ readme = "README.md"
 requires-python = ">= 3.12"
 
 [project.scripts]
-generate-pdf-resume = "zwtil.generate_pdf_resume.cli:CLICK"
+"zwtil.generate-pdf-resume" = "zwtil.generate_pdf_resume.cli:CLICK"
 
 [build-system]
 requires = ["hatchling"]

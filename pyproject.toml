@@ -1,6 +1,6 @@
 [project]
 name = "zwtil.generate-pdf-resume"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = [
     { name = "ZackaryW", email = "36378555+ZackaryW@users.noreply.github.com" }

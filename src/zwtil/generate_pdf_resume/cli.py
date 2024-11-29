@@ -18,7 +18,7 @@ respath = os.path.join(_basepath, "res")
     is_flag=True,
 )
 @click.option("--testmode", "-t", help="Test mode, will use example.toml", is_flag=True)
-def CLI(
+def CLICK(
     data=None,
     template=None,
     gen_pdf_local=False,
@@ -66,4 +66,4 @@ def CLI(
 
 
 if __name__ == "__main__":
-    CLI()
+    CLICK()

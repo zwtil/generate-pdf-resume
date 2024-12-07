@@ -1,8 +1,8 @@
 import os
 import click
 import toml
-from zuu_doc.pandoc import pandoc_run
-from zuu_doc.xelatex import run_xelatex_in_temp, run_xelatex
+from zuu.app.pandoc import pandoc_run
+from zuu.app.xelatex import run_xelatex_in_temp, run_xelatex
 
 _basepath = os.path.dirname(os.path.realpath(__file__))
 respath = os.path.join(_basepath, "res")

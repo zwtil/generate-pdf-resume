@@ -8,9 +8,10 @@ authors = [
 
 dependencies = [
     "click>=8.1.7",
-    "zuu-doc @ git+https://github.com/zwtil/zuu_doc.git",
     "toml>=0.10.2",
     "pyyaml>=6.0.2",
+    "zuu @ git+https://github.com/zwtil/zuu2.git#subdirectory=PYTHON_PKG/std",
+    "zuu-doc @ git+https://github.com/zwtil/zuu2.git#subdirectory=PYTHON_PKG/doc",
 ]
 readme = "README.md"
 requires-python = ">= 3.12"

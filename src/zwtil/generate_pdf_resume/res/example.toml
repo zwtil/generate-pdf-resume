@@ -1,118 +1,110 @@
 [info]
-address = "123 Mystic Lane, Enchanted Woods, MS1 3M7, Avalon"
-city = "Enchanted Woods"
-country = "Avalon"
-email = "merlin.archmage@arcana.com"
-firstname = "Merlin"
-github = "MerlinTheMage"
-lastname = "Archmage"
-linkedin = "merlin_magic"
-middleinitial = "G"
-middlename = "Gandalf"
-mobile = "(+44) 777-123-4567"
-postalcode = "MS1 3M7"
-province = "Avalon"
+address = "456 Sorcery Street, Arcane City, AC2 4B7, Fantasia"
+city = "Arcane City"
+country = "Fantasia"
+email = "gandalf.thegrey@wizardry.com"
+firstname = "Gandalf"
+github = "GandalfTheGrey"
+lastname = "The Grey"
+linkedin = "gandalf_wizard"
+middleinitial = "T"
+middlename = "The"
+mobile = "(+44) 888-987-6543"
+postalcode = "AC2 4B7"
+province = "Fantasia"
 
 [profile]
-summary = "Master of Arcane Sciences with a deep understanding of magical artifacts, experienced in ancient spell crafting and proficient in alchemy. Known for rapidly mastering new spells and mystical techniques."
+summary = "Experienced wizard with a deep understanding of magical arts and a passion for teaching."
 corecomp = [
-    "quick spell learner",
-    "team conjurer",
-    "analytical sorcerer",
+    "master spell caster",
+    "strategic thinker",
+    "mentor to young wizards",
 ]
 topqual = [
-    "Aspired to become a High Mage, currently studying in the Ancient Order's Arcane Engineering program.",
-    "Bachelor's degree in Arcane Sciences with over two centuries of experience in mystical development.",
-    "Proactively learning new magical technologies, demonstrated by quickly mastering the creation of enchanted items and developing a popular spell with widespread acclaim.",
-    "Experienced in providing arcane support for both mystical and non-mystical beings.",
-    "Developed multiple magical potions with automated brewing processes and arcane ingredient sourcing.",
-    "Skilled in deciphering ancient runes, exemplified by a 150x optimization in casting time during my role as a Magical Analyst.",
-    "Expert at creating enchanted maps to guide decision-making and improve quest outcomes.",
+    "Order of the Istari",
+    "Council of Elrond Member",
 ]
 
 [[qual]]
-title = "Magical Expertise and Arcane Tools"
+title = "Master Wizard"
 items = [
-    "Spells: Fireball, Lightning Bolt, Invisibility",
-    "Alchemy and Enchanting: Potion Brewing, Rune Crafting",
-    "Divination: Crystal Ball, Tarot, Scrying",
-    "Other: Magical History, Forbidden Tomes, Arcane Symbols",
+    "Led the Fellowship of the Ring",
+    "Defeated the Balrog of Moria",
 ]
 
 [[exp]]
-position = "Arcane Specialist"
-organization = "Elders' Council"
-location = "Mystic Tower, Avalon"
-datestart = "1924"
+position = "Chief Wizard"
+organization = "White Council"
+location = "Isengard, Fantasia"
+datestart = "1954"
 dateend = "Present"
 items = [
-    "Analyzed and improved magical energy systems, uncovering ancient rituals to enhance protective barriers.",
-    "Addressed spell misfires and developed solutions to prevent resource wastage.",
-    "Standardized spell casting protocols and preserved ancient knowledge, enhancing collaboration.",
+    "Advised on matters of magic and strategy",
+    "Led initiatives to combat dark forces",
 ]
 
 [[exp]]
-position = "Sorcerer Apprentice"
-organization = "Magi Circle"
-location = "Mystic Tower, Avalon"
-datestart = "1823"
-dateend = "Present"
+position = "Grey Pilgrim"
+organization = "Middle-earth"
+location = "Various Locations"
+datestart = "1900"
+dateend = "1954"
 items= [
-    "Resolved magical distortions in rituals and mastered ancient spells through practice.",
-    "Created manuals and trained apprentices to ensure knowledge continuity.",
-    "Developed automation spells for ritual management, aiding in high-stakes summoning.",
+    "Traveled extensively to gather knowledge",
+    "Assisted in the defeat of Sauron",
 ]
 
 [[project]]
-name = "Image Projection"
-position = "Contributor"
-type = "Plugin"
-datestart = "1923"
-dateend = "Present"
+name = "The One Ring Quest"
+position = "Leader"
+type = "Adventure"
+datestart = "1954"
+dateend = "1955"
 items = [
-    "Created a plugin for embedding images in spellbooks, meeting niche community needs.",
-    "Learned new APIs and runes to develop a spell, achieving unexpected popularity.",
+    "Guided the Fellowship to Mordor",
+    "Ensured the destruction of the One Ring",
 ]
 
 [[project]]
-name = "Engineering Capstone"
-position = "Lead Enchanter"
-type = "Academy Project"
-datestart = "1821"
-dateend = "1821"
+name = "White Council Meetings"
+position = "Chair"
+type = "Council"
+datestart = "1930"
+dateend = "1954"
 items = [
-    "Led a team to design a magical artifact using runes and templates, following development cycles.",
+    "Organized meetings to discuss threats",
+    "Formulated plans to counteract Sauron",
 ]
 
 [[project]]
-name = "Documentor"
-position = "Creator"
-type = "Repository"
-datestart = "1924"
-dateend = "Present"
+name = "Hobbiton Restoration"
+position = "Advisor"
+type = "Community"
+datestart = "1955"
+dateend = "1956"
 items = [
-    "Created a tool for automating enchanted document creation, improving efficiency.",
+    "Advised on the rebuilding of Hobbiton",
+    "Promoted peace and prosperity in the Shire",
 ]
 
 [[otherexp]]
-position = "Assistant"
-organization = "Grove"
-location = "Enchanted Woods, Avalon"
-datestart = "1719"
-dateend = "Present"
+position = "Wanderer"
+organization = "Middle-earth"
+location = "Various"
+datestart = "1800"
+dateend = "1900"
 items = [
-    "Provided arcane support, managed supplies, and created manuals for smooth operations.",
-    "Gained knowledge in Magical Flora and achieved mastery in Potion Crafting.",
-    "Experimented with ritual designs, reducing preparation time and aligning with sustainable practices.",
+    "Explored the lands of Middle-earth",
+    "Gathered ancient lore and wisdom",
 ]
 
 [[edu]]
-degree = "Arcane Sciences"
-institution = "Mystical Arts Academy"
-datestart = "1718"
-dateend = "1723"
-location = "Crystal Spire, Avalon"
+degree = "Master of Magic"
+institution = "Valinor Academy of Wizardry"
+datestart = "1700"
+dateend = "1750"
+location = "Valinor, Fantasia"
 items = [
-    "Participated in a scholarship program for Arcane Sciences and Runes.",
-    "Co-founded a guild to facilitate member collaboration during a crisis.",
+    "Studied under the Valar",
+    "Specialized in elemental magic",
 ]
